@@ -27,7 +27,7 @@ mvnw spring-boot:run
 ```
 
 
-### DATABASE : localhost:8080/h2
+### DATABASE : http://localhost:8080/h2
 This Spring Boot Application contains an embedded in memory H2 Database. 
 The data.sql script create a few data in the database at each start.
 
