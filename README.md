@@ -29,13 +29,15 @@ mvnw spring-boot:run
 
 ### DATABASE : http://localhost:8080/h2
 This Spring Boot Application contains an embedded in memory H2 Database. 
-The data.sql script create a few data in the database at each start.
+The data.sql script create a few data in the database at each start, with the following script :
 
+```shell
 INSERT INTO GLADY_USER (id, name) VALUES (1, 'Vivien');
 INSERT INTO GLADY_USER (id, name) VALUES (2, 'John');   
 
 INSERT INTO COMPANY (id, name, balance) VALUES (1, 'Tesla', 300);
-INSERT INTO COMPANY (id, name, balance) VALUES (2, 'Google', 550);    
+INSERT INTO COMPANY (id, name, balance) VALUES (2, 'Google', 550);
+```
 
 
 Users ID and companies ID are 1 and 2.
